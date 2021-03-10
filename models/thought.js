@@ -7,6 +7,14 @@ const ThoughtSchema = new Schema({
     min: 1,
     max: 280,
   },
+  CreatedAt: {
+    type: Date,
+    default: Date.now,
+  },
+  username: {
+    type: String,
+    required: true,
+  },
 });
 
 const User = model("Thought", ThoughtSchema);

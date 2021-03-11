@@ -3,7 +3,7 @@
 ## Description
 
 **An API built for a social network web application. This API uses Express, Mongoose, and MongoDB. This application was not deployed but it has a walkthrough video that demonstartes it's functionality.**
-_CRUDE_
+_CRUDE GOALS_
 
 [GitHub](https://github.com/MCannon33/social-media-api)
 

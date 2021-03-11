@@ -43,9 +43,11 @@ const ThoughtController = {
         if (!dbUserData) {
           return res
             .status(404)
-            .json({ message: "Thought created but no user with this id!" });
+            .json({
+              message: "thought created but there is no user with this id!",
+            });
         }
-        res.json({ message: "Thought successfully created!" });
+        res.json({ message: "thought successfully created" });
       })
       .catch((err) => {
         console.log(err);

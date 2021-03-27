@@ -27,6 +27,7 @@ const UserController = {
       .select("-__v")
       .populate("friends")
       .populate("thoughts")
+      .populate("username")
       .then((dbUserData) => {
         if (!dbUserData) {
           return res.status(404).json({ message: "No user with this id!" });

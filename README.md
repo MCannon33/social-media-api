@@ -7,4 +7,4 @@ _CRUDE GOALS_
 
 [GitHub](https://github.com/MCannon33/social-media-api)
 
-[Video](https://vimeo.com/522167772)
+[Video](https://vimeo.com/529785722)
